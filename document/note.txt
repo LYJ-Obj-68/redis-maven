@@ -1,0 +1,10 @@
+使用开发工具: idea
+jdk  1.8
+tomcat  9.0
+用maven创建的
+
+在main中用redis实现了简单的增删改查(没做ajax验证)
+在test中模拟了简单的redis集群
+
+访问路径:
+http://localhost:8080/user/goList.do (不需要输入项目名(已配置))
